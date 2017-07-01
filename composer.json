@@ -1,0 +1,24 @@
+{
+    "name": "bors/jquery-cookie",
+
+    "authors": [
+        {
+            "name": "Balancer",
+            "email": "balancer@balancer.ru"
+        }
+    ],
+
+    "require": {
+        "bors/jquery": "*"
+    },
+
+	"suggest": {
+		"bower-asset/jquery.cookie": "Needed if you want use local asset instead CDN"
+	},
+
+	"autoload": {
+		"psr-4": {
+			"B2\\jQuery\\": "./"
+		}
+	}
+}
