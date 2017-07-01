@@ -17,6 +17,6 @@ class Cookie extends \B2\jQuery\Plugin
 
 		// Package bower-asset/jquery.cookie installed, use them
 		$bower_asset_path = \B2\Cfg::get('bower-asset.path', '/bower-asset') . '/jquery.cookie';
-		jquery::plugin($bower_asset_path.'/jquery.cookie.js');
+		\jQuery::plugin($bower_asset_path.'/jquery.cookie.js');
 	}
 }
